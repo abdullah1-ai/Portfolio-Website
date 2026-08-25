@@ -19,35 +19,6 @@ const Experience = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         {/* Heading Section */}
-        {/* <div className="flex items-center justify-center pt-6">
-          <div className="max-w-3xl mb-16 text-center relative">
-            <span
-              className="text-secondary-foreground text-2xl
-            font-medium tracking-wider uppercase animate-fade-in"
-            >
-              Career Journey
-            </span>
-            <h2
-              className="text-4xl md:text-5xl font-bold
-            mt-4 mb-6 animate-fade-in animation-delay-100
-            text-secondary-foreground"
-            >
-              Experience that{" "}
-              <span className="font-serif italic font-normal text-white">
-                {" "}
-                speaks volumes.
-              </span>
-            </h2>
-
-            <p
-              className="text-muted-foreground
-            animate-fade-in animation-delay-200 text-sm md:text-xl"
-            >
-              A timeline of my professional growth, from curious beginner to
-              senior engineer leading teams and building products at scale.
-            </p>
-          </div>
-        </div> */}
         <div className="flex items-center justify-center pt-6">
           <div className="max-w-4xl mb-16 text-center relative">
             <span

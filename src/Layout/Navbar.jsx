@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../Components/Button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-scroll";
@@ -39,7 +39,7 @@ const Navbar = () => {
         </Link>
         <div className="hidden md:flex">
           <div className="glass px-3 py-2 rounded-full cursor-pointer">
-            {navLinks.map((item, index) => (
+            {navLinks.map((item) => (
               <Link
                 key={item.to}
                 className="px-2 py-2 hover:text-foreground text-muted-foreground hover:bg-surface rounded-full"
@@ -67,7 +67,7 @@ const Navbar = () => {
       </div>
       {openMenu && (
         <div className="flex flex-col gap-4 glass-strong mt-2 px-3 pb-2 animate-fade-in">
-          {navLinks.map((item, index) => (
+          {navLinks.map((item) => (
             <Link
               smooth={true}
               duration={500}

@@ -1,4 +1,3 @@
-// import {  Linkedin, Twitter, Heart } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-scroll";
 

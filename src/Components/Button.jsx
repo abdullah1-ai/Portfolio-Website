@@ -1,6 +1,3 @@
-import React from "react";
-import { Link } from "react-scroll";
-
 const Button = ({ children, size = "default", className = "",type }) => {
   const baseClasses =
     "bg-primary text-primary-foreground  cursor-pointer shadow-lg shadow-primary/30 rounded-full font-semibold hover:bg-primary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";

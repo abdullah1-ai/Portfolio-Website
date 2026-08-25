@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Code2, Monitor, BookOpen, Lightbulb } from "lucide-react";
 
 const About = () => {

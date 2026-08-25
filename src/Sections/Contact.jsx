@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Button from "../Components/Button";
 import {
   Send,
@@ -8,7 +8,6 @@ import {
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
-import { Link } from "react-scroll";
 import emailjs from "@emailjs/browser";
 const contactInfo = [
   {

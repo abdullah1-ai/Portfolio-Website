@@ -1,9 +1,8 @@
-import React from "react";
 import Button from "../Components/Button";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-scroll";
-import cvPdf from "../Assets/Fahad_Banking_CV_Template.pdf";
+import cvPdf from "../Assets/Cv.pdf";
 
 const Hero = () => {
   const socialLinks = [
@@ -107,7 +106,7 @@ const Hero = () => {
               </Link>
               <a
                 href={cvPdf}
-                download="Fahad_Banking_CV_Template.pdf"
+                download="Fahad_Abdullah_Cv.pdf"
                 className=""
               >
                 <button className="button lg:text-[18px] glass glow flex items-center gap-2 shadow-inside text-foreground lg:px-8 lg:py-4 lg:text-lg px-4 py-2 text-sm">

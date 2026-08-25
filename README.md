@@ -43,13 +43,13 @@ A modern and responsive personal portfolio website built to showcase my frontend
 ### Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/abdullah1-ai/Portfolio-Website.git
 ```
 
 ### Navigate to the project
 
 ```bash
-cd YOUR_PROJECT_FOLDER
+cd Portfolio-Website
 ```
 
 ### Install dependencies
@@ -74,7 +74,7 @@ npm run build
 
 ## Live Demo
 
-[View Portfolio](YOUR_PORTFOLIO_URL)
+[View Portfolio](https://portfolio-website-theta-sandy-46.vercel.app/)
 
 ## Author
 
