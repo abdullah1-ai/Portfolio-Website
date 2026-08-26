@@ -273,9 +273,10 @@ const Contact = () => {
               <p className="text-muted-foreground text-md">
                 {" "}
                 I'm currently open to frontend development opportunities,
-                including internships and junior React/Frontend Developer roles.
-                I'm looking for an opportunity where I can contribute my skills,
-                gain real-world experience, and grow as a developer.
+                particularly junior React and Frontend Developer roles. I'm
+                looking for an opportunity where I can contribute my skills,
+                work on real-world projects, and continue growing as a
+                developer.
               </p>
             </div>
           </div>

@@ -2,7 +2,7 @@ import Button from "../Components/Button";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-scroll";
-import cvPdf from "../Assets/Cv.pdf";
+import cvPdf from "../Assets/Cv_Fahad_Abdullah.pdf";
 
 const Hero = () => {
   const socialLinks = [
