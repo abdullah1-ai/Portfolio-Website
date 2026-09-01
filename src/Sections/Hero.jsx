@@ -12,7 +12,7 @@ const Hero = () => {
     },
     {
       icon: <FaLinkedinIn size={"1.5rem"} />,
-      href: "https://www.linkedin.com/in/fahad-abdullah-8b809a275/",
+      href: "https://www.linkedin.com/in/fahad-abdullah-dev/",
     },
   ];
 
@@ -104,11 +104,7 @@ const Hero = () => {
                   Contact Us <ArrowRight size={"1.2rem"} />
                 </Button>
               </Link>
-              <a
-                href={cvPdf}
-                download="Fahad_Abdullah_Cv.pdf"
-                className=""
-              >
+              <a href={cvPdf} download="Fahad_Abdullah_Cv.pdf" className="">
                 <button className="button lg:text-[18px] glass glow flex items-center gap-2 shadow-inside text-foreground lg:px-8 lg:py-4 lg:text-lg px-4 py-2 text-sm">
                   <Download size={"1.2rem"} /> Download Cv
                   <svg className="glow-container">

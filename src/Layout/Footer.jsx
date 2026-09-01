@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: FaGithub, href: "https://github.com/abdullah1-ai", label: "GitHub" },
   {
     icon: FaLinkedinIn,
-    href: "https://www.linkedin.com/in/fahad-abdullah-8b809a275/",
+    href: "https://www.linkedin.com/in/fahad-abdullah-dev/",
     label: "LinkedIn",
   },
 ];

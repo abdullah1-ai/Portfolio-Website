@@ -83,4 +83,4 @@ npm run build
 Frontend Developer specializing in React and JavaScript.
 
 - GitHub: [GITHUB_URL](https://github.com/abdullah1-ai)
-- LinkedIn: [LINKEDIN_URL](https://www.linkedin.com/in/fahad-abdullah-8b809a275/)
+- LinkedIn: [LINKEDIN_URL](https://www.linkedin.com/in/fahad-abdullah-dev/)
