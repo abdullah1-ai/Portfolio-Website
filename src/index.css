@@ -28,6 +28,8 @@
   --glow-blur-size: 2px;
   --animation-speed: 1200ms;
   --container-offset: 100px;
+
+  --breakpoint-xs: 560px;
 }
 
 @layer base {

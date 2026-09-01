@@ -65,7 +65,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container px-6 mx-auto">
+      <div className="container px-6 mx-auto pt-3 md:pt-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 z-20  mt-15  gap-5">
           {/* Details Section */}
           <div className="flex flex-col gap-3 ">

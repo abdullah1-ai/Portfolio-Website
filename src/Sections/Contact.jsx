@@ -155,10 +155,10 @@ const Contact = () => {
         </div>
 
         {/* Contact */}
-        <div className="grid md:grid-cols-2 gap-4 lg:gap-6 items-center justify-items-center">
+        <div className="grid md:grid-cols-2 gap-4 lg:gap-6 items-start justify-items-stretch xs:items-center xs:justify-items-center">
           <form
             onSubmit={handleSubmitForm}
-            className="w-full max-w-lg mx-auto p-6 glass-strong rounded-2xl outline-none relative shrink-0 space-y-3 ring-1 ring-secondary/10 animate-fade-in animation-delay-100"
+            className="w-full min-w-0 max-w-lg mx-auto p-4 sm:p-6 glass-strong rounded-2xl outline-none relative shrink-0 space-y-3 ring-1 ring-secondary/10 animate-fade-in animation-delay-100"
           >
             <div className="flex flex-col gap-2">
               <label htmlFor="">Name</label>
@@ -238,12 +238,12 @@ const Contact = () => {
             )}
           </form>
 
-          <div className="flex w-full max-w-lg mx-auto flex-col gap-4">
+          <div className="flex w-full min-w-0 max-w-lg mx-auto flex-col gap-4">
             <div
               className="absolute top-1/2 left-1/4 w-96
         h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"
             />
-            <div className="glass rounded-2xl flex flex-col gap-4 p-6  relative animate-fade-in  animation-delay-200">
+            <div className="glass rounded-2xl flex flex-col gap-4 p-4 sm:p-6 relative animate-fade-in animation-delay-200">
               <h1 className="text-foreground text-xl font-semibold">
                 Contact Info
               </h1>
@@ -251,26 +251,26 @@ const Contact = () => {
               {/* contact inflo details  */}
               <div className=" flex flex-col gap-3">
                 {contactInfo.map((item) => (
-                  <div key={item.label} className="flex items-center gap-4">
-                    <div className="p-4 bg-primary/10 inline-block rounded-2xl text-primary">
+                  <div key={item.label} className="flex items-start gap-3 sm:gap-4">
+                    <div className="p-3 sm:p-4 bg-primary/10 inline-block rounded-2xl text-primary shrink-0">
                       <item.icon />
                     </div>
-                    <div className="flex flex-col gap-0.2">
+                    <div className="flex min-w-0 flex-col gap-0.5">
                       <p className="text-foreground">{item.label}</p>
-                      <p className="text-muted-foreground">{item.value}</p>
+                      <p className="text-muted-foreground break-words">{item.value}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
             {/* Currently Availabe Details */}
-            <div className="p-4 glass rounded-2xl  ring-1 ring-secondary flex flex-col gap-2 animate-fade-in  animation-delay-300">
+            <div className="p-4 glass rounded-2xl ring-1 ring-secondary flex flex-col gap-2 animate-fade-in animation-delay-300 min-w-0">
               <h1 className="flex gap-2 items-center ">
                 {" "}
                 <span className="h-3 w-3 bg-green-500 inline-block animate-pulse rounded-full"></span>
                 Currently Available
               </h1>
-              <p className="text-muted-foreground text-md">
+              <p className="text-muted-foreground text-md break-words">
                 {" "}
                 I'm currently open to frontend development opportunities,
                 particularly junior React and Frontend Developer roles. I'm
