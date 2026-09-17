@@ -84,7 +84,7 @@ const Experience = () => {
                     </span>
                     <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
                     <p className="text-muted-foreground">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-4 text-justify">
+                    <p className="text-sm text-muted-foreground mt-4">
                       {exp.description}
                     </p>
                     <div
