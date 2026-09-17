@@ -251,13 +251,18 @@ const Contact = () => {
               {/* contact inflo details  */}
               <div className=" flex flex-col gap-3">
                 {contactInfo.map((item) => (
-                  <div key={item.label} className="flex items-start gap-3 sm:gap-4">
+                  <div
+                    key={item.label}
+                    className="flex items-start gap-3 sm:gap-4"
+                  >
                     <div className="p-3 sm:p-4 bg-primary/10 inline-block rounded-2xl text-primary shrink-0">
                       <item.icon />
                     </div>
                     <div className="flex min-w-0 flex-col gap-0.5">
                       <p className="text-foreground">{item.label}</p>
-                      <p className="text-muted-foreground break-words">{item.value}</p>
+                      <p className="text-muted-foreground break-words">
+                        {item.value}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -272,11 +277,9 @@ const Contact = () => {
               </h1>
               <p className="text-muted-foreground text-md break-words">
                 {" "}
-                I'm currently open to frontend development opportunities,
-                particularly junior React and Frontend Developer roles. I'm
-                looking for an opportunity where I can contribute my skills,
-                work on real-world projects, and continue growing as a
-                developer.
+                I am actively open to React and Frontend Developer roles. Drop a
+                message to discuss how I can add value to your team or project,
+                and I'll get back to you shortly.
               </p>
             </div>
           </div>

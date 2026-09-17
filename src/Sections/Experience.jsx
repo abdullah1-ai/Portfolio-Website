@@ -4,7 +4,7 @@ const experiences = [
     role: "Wix Velo Intern",
     company: "Infinity Code Solutions",
     description:
-      "Gained practical experience with JavaScript-based web development, database data management, email triggers, and authentication-related logic. Worked with backend-oriented functionality and strengthened core JavaScript concepts through real-world tasks.",
+      "Engineered backend-oriented business logic and structural database workflows using JavaScript. Delivered secure user authentication protocols, custom form validations, and automated email trigger systems while collaborating with a professional engineering team to optimize overall system functionality.",
     technologies: ["JavaScript", "Wix Velo", "Database", "Authentication"],
     current: false,
   },
@@ -33,10 +33,10 @@ const Experience = () => {
       mt-4 mb-6 animate-fade-in animation-delay-100
       text-secondary-foreground"
             >
-              Gaining experience through{" "}
+              Bridging the gap{" "}
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                real-world work.
+                between frontend interfaces and backend logic.
               </span>
             </h2>
 
@@ -44,7 +44,8 @@ const Experience = () => {
               className="text-muted-foreground
       animate-fade-in animation-delay-200 text-sm md:text-xl"
             >
-            Six months of hands-on experience in JavaScript and web development.
+              Professional internship experience delivering scalable web
+              development solutions.
             </p>
           </div>
         </div>
@@ -83,7 +84,7 @@ const Experience = () => {
                     </span>
                     <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
                     <p className="text-muted-foreground">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-4">
+                    <p className="text-sm text-muted-foreground mt-4 text-justify">
                       {exp.description}
                     </p>
                     <div

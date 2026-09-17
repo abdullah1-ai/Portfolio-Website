@@ -2,7 +2,7 @@ import Button from "../Components/Button";
 import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-scroll";
-import cvPdf from "../Assets/Cv_Fahad_Abdullah.pdf";
+import cvPdf from "../Assets/updated cv 2.pdf";
 
 const Hero = () => {
   const socialLinks = [
@@ -158,8 +158,8 @@ const Hero = () => {
                   </div>
                 </div>
                 <div className="absolute -top-2 -left-2 glass-strong p-2 rounded-2xl animate-floating animation-delay-500">
-                  <p className="text-primary text-2xl font-semibold">6+</p>
-                  <p className="text-sm text-muted-foreground">Months Exp.</p>
+                  <p className="text-primary text-2xl font-semibold">1+</p>
+                  <p className="text-sm text-muted-foreground">Years Exp.</p>
                 </div>
               </div>
             </div>

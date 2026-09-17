@@ -49,32 +49,55 @@ const About = () => {
             </h2>
             <div className="flex flex-col gap-4 text-base md:text-lg text-muted-foreground mt-3 animate-fade-in animation-delay-200">
               <p>
-                I'm a BS Computer Science graduate and Frontend Developer
-                specializing in React and JavaScript, with a focus on building
-                responsive, interactive, and user-friendly web applications. I
-                enjoy creating clean and reusable UI components, integrating
-                APIs, managing application state, and turning ideas into
-                practical web experiences.
+                I am a Frontend Developer & BS Computer Science graduate with 1+
+                year of experience focused on building responsive, interactive,
+                and user-centric web applications using React and JavaScript.
               </p>
               <p>
-                I've built projects including e-commerce applications, admin
-                dashboards, and multi-step forms using technologies such as
-                React, Tailwind CSS, Context API, useReducer, React Router,
-                Vite, and JavaScript. I'm continuously improving my
-                problem-solving and development skills while learning to build
-                applications with cleaner architecture and better user
-                experiences.
+                My expertise includes engineering production-ready frontends
+                with robust state management, REST API integration, client-side
+                routing, and structured form validation. Additionally, I bring 6
+                months of professional internship experience managing database
+                structures, user authentication, and core business logic (Wix
+                Velo platforms).
               </p>
+              <p>
+                I’ve built and deployed several high-impact frontend
+                applications, including:
+              </p>
+              <p>
+                🚀 E-Commerce Platform: Integrated product filtering, search
+                functionalities, responsive cart management, and persistent
+                client-side data.
+              </p>
+              <p>
+                📊 Admin Dashboard: Built scalable reusable components, data
+                charts, fluid layouts, and system theme configurations.
+              </p>
+              <p>
+                🌤️ Weather Dashboard: Engineered real-time geolocation data
+                streams, processing multi-day forecasts and dynamically
+                modifying UI assets via API states.
+              </p>
+              <p>
+                🧠 Quiz Application: Created highly stateful question engines
+                featuring score tracking, dynamic progress indicators, and
+                custom interactive themes.
+              </p>
+              <p className="text-xl font-bold">Key Areas of Expertise</p>
+              <p>⚡ Responsive & High-Performance UI Design</p>
+              <p>⚙️ Component Architecture & State Management</p>
+              <p>🌐 REST API Integration & Async Data Handling</p>
+              <p>🔒 Form Validation & Secure Logical Workflows</p>
             </div>
 
             <div className="relative my-5 animate-fade-in animation-delay-300">
               <div className="glow-div rounded-2xl animate-pulse absolute inset-0" />
               <div className="glass p-4 text-foreground rounded-2xl relative z-10 ">
                 <p>
-                  "My mission is to grow as a Frontend Developer by building
-                  user-focused applications, writing clean and maintainable
-                  code, and continuously improving my skills through every
-                  project."
+                  💡 Driven to deliver high-quality frontend solutions by
+                  building scalable user interfaces, writing clean code, and
+                  solving complex web development problems.
                 </p>
               </div>
             </div>

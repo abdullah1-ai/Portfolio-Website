@@ -1,4 +1,4 @@
-import {  ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 
 const Projects = () => {
@@ -29,7 +29,6 @@ const Projects = () => {
       github:
         "https://github.com/abdullah1-ai/react-syncfusion-admin-dashboard",
     },
-
     {
       title: "Multi-Step Form",
       description:
@@ -38,6 +37,24 @@ const Projects = () => {
       tags: ["React", "JavaScript", "Tailwind CSS", "Form Validation"],
       link: "https://multi-step-form-weld-tau.vercel.app/",
       github: "https://github.com/abdullah1-ai/Multi-Step-Form",
+    },
+    {
+      title: "Weather Dashboard",
+      description:
+        "A responsive weather dashboard with city search, current weather conditions, temperature, humidity, UV index, hourly forecasts, dynamic weather visuals, and automatic location-based weather data.",
+      image: "/project5.png",
+      tags: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+      link: "https://weather-dashboard-ashy-alpha-29.vercel.app/",
+      github: "https://github.com/abdullah1-ai/Weather-Dashboard",
+    },
+    {
+      title: "Quiz App",
+      description:
+        "An interactive quiz application with multiple-choice questions, answer validation, progress tracking, score calculation, dynamic feedback, and a celebratory confetti animation.",
+      image: "/project6.png",
+      tags: ["React", "JavaScript", "Tailwind CSS"],
+      link: "https://react-quiz-app-sable-five.vercel.app/",
+      github: "https://github.com/abdullah1-ai/react-quiz-app",
     },
   ];
   return (
